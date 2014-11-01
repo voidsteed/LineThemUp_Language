@@ -1,0 +1,34 @@
+# Zergling programming language
+# Function demo file
+# by Kaleb Williams
+
+def main()
+	{
+	def add2(x)
+		{
+		return x + 2;
+		}
+	def returnAdd2()
+		{
+		return add2;
+		}
+	def lessThan(a, b)
+		{
+		return a < b;
+		}
+	def compare(a, b, comparator)
+		{
+		return comparator(a, b);
+		}
+	print("Calling returnAdd2() and storing in func");
+	func = returnAdd2();
+	print("func(-5) is",func(-5));
+	print("compare(1, 5, lessThan) is",compare(1, 5, lessThan));
+	print("compare(5, 1, lessThan) is",compare(5, 1, lessThan));
+	print("(Note that 0 represents False and 1 represents True)");
+	print("Nothing should print after this, because there's a return statement.");
+	return;
+	print("RETURN DIDN'T WORK!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+	}
+
+main();

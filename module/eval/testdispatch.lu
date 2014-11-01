@@ -1,0 +1,38 @@
+def decrementer(start)
+	{
+	def reduce(x)
+		{
+		$start = start - x;
+		return start;
+		}
+	def reset(y)
+		{
+		$start = y;
+		return start;
+		}
+	def dispatch(str)
+		{
+		if (str = "reduce")
+			{
+			return reduce;
+			}
+		else
+			{
+			return reset;
+			}
+		}
+	return dispatch;
+	}
+$n = decrementer(100);
+$a = n("reduce");
+print(a(1));
+$q = array(3);
+print(q);
+arraySet(q,1,a);
+print(q);
+arraySet(q,0,0);
+arraySet(q,2,2);
+$e = arrayIndex(q,0);
+#print(e(1));
+
+

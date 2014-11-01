@@ -1,0 +1,11 @@
+def zoo(x,y)
+	{
+	def helper(c)
+		{
+		$z = c + y + 2;
+		return z;
+		}
+	$g = helper(5) * x / 2;
+	return g;
+	}
+print(zoo(2,3));

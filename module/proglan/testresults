@@ -1,0 +1,113 @@
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False ASSIGN =
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID rank INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID item INTEGER 5
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID next INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False RETURN
+{{{{{{{{{{{{{{{{{{{{{{{ RETURN env
+RETURNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! env
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID node None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID rank INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID item INTEGER 5
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID next INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False RETURN
+{{{{{{{{{{{{{{{{{{{{{{{ RETURN env
+RETURNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! env
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False ASSIGN =
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID rank INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID item INTEGER 5
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID next INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False RETURN
+{{{{{{{{{{{{{{{{{{{{{{{ RETURN env
+RETURNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! env
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID node None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID rank INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID item INTEGER 5
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID next INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False RETURN
+{{{{{{{{{{{{{{{{{{{{{{{ RETURN env
+RETURNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! env
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False PRINT
+in evalPrint, returned is False
+AAAAAAAAAAAAAAAFTER N!!!!!!!!!!!!!!!!!!!!!! 
+{{{{{{{{{{{{{{{{{{{{{{{ PRINT None
+in evalStateSeq, returned is False PRINT
+in evalPrint, returned is False
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False ASSIGN =
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID rank INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID item INTEGER 5
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID next INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False RETURN
+{{{{{{{{{{{{{{{{{{{{{{{ RETURN env
+RETURNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! env
+evalFuncCall------------>  BLOCK STATESEQ RETURN None
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID node None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID rank INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID item INTEGER 5
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False ASSIGN =
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,inserting ID next INTEGER 0
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False FUNCDEF
+{{{{{{{{{{{{{{{{{{{{{{{ FUNCDEF env
+in evalStateSeq, returned is False RETURN
+{{{{{{{{{{{{{{{{{{{{{{{ RETURN env
+RETURNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! env
+evalFuncCall------------>  BLOCK STATESEQ RETURN None
+{{{{{{{{{{{{{{{{{{{{{{{ ASSIGN = None
+in evalStateSeq, returned is False PRINT
+in evalPrint, returned is False
+AAAAAAAAAAAAAAAFTER N!!!!!!!!!!!!!!!!!!!!!! 
+{{{{{{{{{{{{{{{{{{{{{{{ PRINT None
+in evalStateSeq, returned is False PRINT
+in evalPrint, returned is False

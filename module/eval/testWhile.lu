@@ -1,0 +1,10 @@
+def zoo(x)
+	{
+	$a = x;
+	while (not (a=0))
+		{
+		print("lalala");
+		$a = a - 1;
+		}
+	}
+zoo(5);

@@ -1,0 +1,17 @@
+def XYAG(a, b, c, d, e)
+	{
+	def helper(zoo, panda)
+		{
+		return zoo + panda;
+		}
+	x = c;
+	y = 4;
+	while y < 8
+		{
+		x = x + a + b;
+		y = y + 9;
+		}
+	}
+
+XYAG(1, 2, 3, 4, 5);
+

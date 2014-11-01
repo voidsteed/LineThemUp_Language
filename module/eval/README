@@ -1,0 +1,40 @@
+Yujun Liu
+To run my programming language Line'emUp:
+python3 eval.py filename
+
+To run my programming language pretty printing:
+please run python3 pretty.py filename
+
+My language implements integers, real and string:
+Please run testprint.lu
+
+My language implements array and the array is constant time:
+Please run testprint.lu
+
+My language implements recursions:
+please run testfatorial.lu, testfib.lu 
+
+My language implements nested function call and dispatch function:
+please run testNestFuncCall.lu and testdispatch
+
+My language implements while loop:
+please run testWhile.lu, testLoop.lu
+
+My language implements simulator:
+please run testProgram.lu
+
+My language implements conditions:
+please run testCondition.lu
+
+My language implements sevaral easy functions:
+please run test3.lu, test5.lu, test7.lu, test10.lu
+
+The operators demos in every demo programs. The big testProgram.lu cover the majority things need to be tested.
+
+simulator and dispatch functions show the functions as first-class objects.
+
+Comments is in testProgram.lu and some other functions, just the same as python's comments "#".
+
+For the simulator, testProgram.lu. It is easy just change the inputs's values in the main() function. Find the setValue method and set value to 1 or 0.
+
+

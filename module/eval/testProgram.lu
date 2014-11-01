@@ -1,0 +1,413 @@
+def node(rank,item,next)
+	{
+	$r = rank;
+	$i = item;
+	$n = next;
+	def setNext(newNext)
+		{
+		$n = newNext;
+		}
+	def dispatch(str)
+		{
+		if (str = "rank")
+			{
+			return r;
+			}
+		else
+			{
+			if (str = "item")
+				{
+				return i;
+				}
+			else
+				{
+				if(str = "next")
+					{
+					return n;
+					}
+				else
+					{
+					if(str = "setNext")
+						{
+						return setNext;
+						}
+					}
+				}	
+			}
+		}
+	return dispatch;
+	}
+
+#$no = node(1,4,10);
+#$a = no("rank");
+#$b = no("item");
+#$c = no("next");
+#print(a);
+#print(b);
+#print(c);
+
+#-----------------------------------------------------------------------
+
+def pQueue()
+	{
+	$head = node(0,0,0);
+	$size = 0;
+	def insert(rank,item)
+		{
+		$spot = head;
+		$next = spot("next");
+		while ((not (next = 0)) and ((next("rank") < rank) or (next("rank") = rank)))
+			{
+			$spot = next;
+			$next = spot("next");
+			}
+		$setNext = spot("setNext");
+		setNext(node(rank,item,(spot("next"))));
+		$size = size + 1;
+		return item;
+		}
+	def item()
+		{
+		$next = head("next");
+		if (not (next = 0))
+			{
+			return next("item");
+			}
+		else
+			{
+			return "(empty)";
+			}
+		}
+	def remove()
+		{
+		$result = item();
+		$setNext = head("setNext");
+		$next = head("next");
+		setNext(next("next"));
+		$size = size - 1;
+		return result;
+		}
+	def rank()
+		{
+		$next = head("next");
+		if (not (next = 0))
+			{
+			return next("rank");
+			}
+		else
+			{
+			return "(empty)";
+			}
+		}
+	def isEmpty()
+		{
+		return size = 0;
+		}
+	def dispatch(str)
+		{
+		if (str = "size")
+			{
+			return size;
+			}
+		else
+			{
+			if (str = "insert")
+				{
+				return insert;
+				}
+			else
+				{
+				if (str = "item")
+					{
+					return item();
+					}
+				else
+					{
+					if (str = "remove")
+						{
+						return remove();
+						}
+					else
+						{
+						if (str = "rank")
+							{
+							return rank();
+							}
+						else
+							{
+							if (str = "isEmpty")
+								{
+								return isEmpty();
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	
+	return dispatch;
+	}
+
+
+
+def checkQueue(queue)
+	{
+	print("item is ",queue("item"));
+	print("rank is ",queue("rank"));
+	print("size is ",queue("size"));
+	print("isEmpty is ",queue("isEmpty"));
+	print();
+	}
+
+#$q = pQueue();
+#$a = q("insert");
+#a(9,5);
+#a(3,2);
+#a(7,6);
+#checkQueue(q);
+#q("remove");
+#checkQueue(q);
+
+
+#------------------------------------------------------------------------------------
+def cons(a,b)
+	{
+	$left = a;
+	$right = b;
+	def dispatch(str)
+		{
+		if (str = "left")
+			{
+			return left;
+			}
+		else
+			{
+			return right;
+			}
+		}
+	return dispatch;
+	}
+
+def car(cell)
+	{
+	return cell("left");
+	}
+
+
+def cdr(cell)
+	{
+	return cell("right");
+	}
+
+#------------------------------------------------------------------------------------
+
+def sim()
+	{
+	$time = 0;
+	$events = pQueue();
+	def add(event,delay)
+		{
+		$insert = events("insert");
+		insert((time + delay),event);
+		}
+
+	def run()
+		{
+		while (not events("isEmpty"))
+			{
+			$time = events("rank");
+			$event = events("remove");
+			event();
+			}
+		}
+	def dispatch(str)
+		{
+		if (str = "add")
+			{
+			return add;
+			}
+		else
+			{
+			if (str = "run")
+				{
+				return run();
+				}
+			}
+		}
+	return dispatch;
+	}
+
+def wire()
+	{
+	$value = 0;
+	$dstream = 0;
+	def register(action)
+		{
+		$dstream = cons(action,dstream);
+		return action;
+		}
+	def setValue(v)
+		{
+		$value = v;
+		$a = 0;
+		$items = dstream;
+		while (not (items = 0))
+			{
+			$a = car(items);
+			a();
+			$items = cdr(items);
+			}
+		return v;
+		}
+	def dispatch(str)
+		{
+		if (str = "value")
+			{
+			return value;
+			}
+		else
+			{
+			if (str = "register")
+				{
+				return register;
+				}
+			else
+				{
+				if (str = "setValue")
+					{
+					return setValue;
+					}
+				}
+			}
+		}
+	return dispatch;
+	}
+
+def makeWire()
+	{
+	return wire();
+	}
+
+def getSignal(wire)
+	{
+	return wire("value");
+	}
+
+def setSignal(wire,newValue)
+	{
+	$setValue = wire("setValue");
+	setValue(newValue);
+	}
+
+def addAction(wire,actionProcedure)
+	{
+	$register = wire("register");	
+	register(actionProcedure);
+	}
+
+def makeAgenda()
+	{
+	return sim();
+	}
+
+$theAgenda = makeAgenda();
+
+def propogate()
+	{
+	theAgenda("run");
+	}
+
+def andGate(in1,in2,out)
+	{
+	$delay = 5;
+	def action()
+		{
+		$v1 = getSignal(in1);
+		$v2 = getSignal(in2);
+		$result = ((v1) and (v2));
+		def temp()
+			{
+			setSignal(out,result);
+			}
+		$add = theAgenda("add");
+		add(temp,delay);
+		
+		}
+	addAction(in1,action);
+	addAction(in2,action);
+	}
+
+
+def orGate(in1,in2,out)
+	{
+	$delay = 5;
+	def action()
+		{
+		$v1 = getSignal(in1);
+		$v2 = getSignal(in2);
+		$result = ((v1) or (v2));
+		def temp()
+			{
+			setSignal(out,result);
+			}
+		$add = theAgenda("add");
+		add(temp,delay);
+		}
+	addAction(in1,action);
+	addAction(in2,action);
+	}
+def inverter(in,out)
+	{
+	$delay = 5;
+	def action()
+		{
+		$v = getSignal(in);
+		$result = not v;
+		def temp()
+			{
+			setSignal(out,result);
+			}
+		$add = theAgenda("add");
+		add(temp,delay);
+		}
+	addAction(in,action);
+	}
+
+def halfAdder(in1,in2,sum,cOut)
+	{
+	$internal1 = makeWire();
+	$internal2 = makeWire();
+	orGate(in1,in2,internal1);
+	andGate(in1,in2,cOut);
+	inverter(cOut,internal2);
+	andGate(internal1,internal2,sum);
+	}
+
+def fullAdder(in1,in2,cIn,sum,cOut)
+	{
+	$internalSum = makeWire();
+	$internalC1 = makeWire();
+	$internalC2 = makeWire();
+	halfAdder(in2,cIn,internalSum,internalC1);	
+	halfAdder(in1,internalSum,sum,internalC2);	
+	orGate(internalC1,internalC2,cOut);
+	}
+
+def main()
+	{
+	$in1 = makeWire();	
+	$in2 = makeWire();
+	$cIn = makeWire();
+	$sum = makeWire();
+	$cOut = makeWire();
+	fullAdder(in1,in2,cIn,sum,cOut);
+	setSignal(in1,0);
+	setSignal(in2,1);
+	setSignal(cIn,0);
+	propogate();
+	print("cOut is ",getSignal(cOut));
+	print("sum is ",getSignal(sum));
+	}
+
+main();

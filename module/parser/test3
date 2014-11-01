@@ -1,0 +1,12 @@
+def max(a,b,c)
+	{
+	if a > b
+		{
+		return a;
+		}
+	else
+		{
+		return c;
+		}
+	}
+max(4,5,6);

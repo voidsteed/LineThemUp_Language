@@ -1,0 +1,49 @@
+# Zergling programming language
+# Recursion demo file
+# by Kaleb Williams
+
+def fib(n)
+	{
+	if ((n == 0) or (n == 1))
+		{
+		return n;
+		}
+	else
+		{
+		return fib(n - 1) + fib(n - 2);
+		}
+	}
+
+def factorial(n)
+	{
+	if (n == 0)
+		{
+		return 1;
+		}
+	else
+		{
+		return n * factorial(n-1);
+		}
+	}
+
+def main()
+	{
+	i = 0;
+	print("Using recursive fib, the first 8 fibonacci numbers are...");
+	while (i <= 7)
+		{
+		print(fib(i));
+		i = i + 1;
+		}
+	j = 0;
+	print();
+	print("Using recursive factorial...");
+	while (j <= 7)
+		{
+		print("factorial(",j,") is", factorial(j));
+		j = j + 1;
+		}
+	}
+	
+
+main();

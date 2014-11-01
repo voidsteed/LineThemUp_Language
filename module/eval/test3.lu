@@ -1,0 +1,10 @@
+def zoo(a,b,c,d,e)
+	{
+	if (a = b)
+	{
+	$c = d + e;
+	} 
+	return c;
+	}
+
+print(zoo(3,2,4,6,1));

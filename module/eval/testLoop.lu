@@ -1,0 +1,17 @@
+def goo(a)
+	{
+	return a + 2;
+	}
+
+
+def zoo()
+	{
+	$i = 0;
+	while (i < 5)
+		{
+		print(goo(i));
+		$i = i + 1;
+		print(i,"count the number increase by 1!");
+		}
+	}
+zoo();

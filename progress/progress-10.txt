@@ -1,0 +1,48 @@
+                        CS403/CS503 PROGRESS REPORT
+                        ---------------------------
+
+Name:Yujun Liu
+Email:yliu59@crimson.ua.edu
+
+Progress report number 
+----------------------
+
+    Number: 10
+
+Study groups
+------------
+
+    For the next three items, if you did not attend a study
+    group meeting in the past week, enter 0 for the number
+    of meetings and go on to the next section. If you attended
+    more than one meeting, enter information for the most
+    recent meeting.
+
+    Number of meetings:1
+    Meeting date:Oct,2nd
+    Meeting time:5:00-6:00
+    Names of attendees:Yujun, Kaleb,Ben, Justin
+    Brief summary of meeting: We worked individually and talked about environment we talked about in class.
+
+Your progress on small assignments
+----------------------------------
+
+    Current assignment:3
+
+    Percent completed:0%
+
+Your progress on the large project
+----------------------------------
+
+    Current module:environment
+
+    Percent completed: 0%
+
+Your progress in the class
+--------------------------
+
+    With which concepts are you having difficulty?
+	Not yet.
+
+    Your goal for the coming week:fix some error in my grammar and start environment.
+

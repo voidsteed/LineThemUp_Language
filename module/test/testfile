@@ -1,0 +1,11 @@
+int alpha = 10;
+
+0 / 4.5
+
+10 / 0
+
+ while (alpha > 0)
+    {
+    System.out.println("alpha is " + alpha);
+    alpha = alpha - 1;
+    }

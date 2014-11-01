@@ -1,0 +1,63 @@
+primary 	: NUMBER
+		| OPERAN expr CPERAN
+		| varExpr
+		
+
+varExpr 	: VIARABLE
+		| VIARABLE OPAREN optArgvsList CPAREN
+
+expr		: primaryOP expr
+		| Primary
+
+Sum		: numeric PLUS numeric
+
+numeric 	: NUMBER
+		| VARIABLE
+
+Substraction 	: numeric MINUS numeric
+
+primaryOP	: PLUS | MINUS | TIMES | DIVIDED | SQRT | REMINDER | 
+
+list		: item
+		| item COMMA list
+
+item		: NUMBER
+		| STRING
+		| list
+		| VARIABLE 
+
+function	: ID VARIABLE OPERAN optArgvsList CPAREN COLON expr
+		| expr
+		| VARIABLE
+		| NUMBER
+
+functionCall	: VARIABLE OPERAN optArgvsList CPAREN
+
+optArgvsList	: VARIABLE OPAREN CPAREN
+		| VARIABLE OPAREN item CPAREN
+		| VARIABLE OPAREN list CPAREN
+
+ifStatement	: IF OPERAN expr CPAREN block optElse
+
+      
+block 		: OBRACE statementList CBRACE
+
+statementList 	: statement 
+	  	| statement statementList
+  
+statement 	: expression SEMI 
+		| functionDef
+      		| ifStatement
+      		| INT VARIABLE optInit SEMI 
+  
+optElse 	: ELSE block 
+    		| *empty* 
+      
+optInit 	: ASSIGN expression 
+    		| *empty*
+
+whileStatement	: WHILE OPAREN expr CPAREN block
+
+forStatement	FOR OPAREN expr CPAREN block
+
+

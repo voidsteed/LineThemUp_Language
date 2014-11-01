@@ -1,0 +1,10 @@
+def a (x,y,z,h)
+	{
+	acc = 0;
+	d = 0;
+	for i in range(0,x)
+		{
+		i = i + 1;
+		}
+	}
+a (0,1,5,4);

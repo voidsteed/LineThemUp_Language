@@ -1,0 +1,33 @@
+def zoo(x,y,z)
+	{
+	$a = x;
+	$b = y;
+	$c = z;
+	def dispatch(str)
+		{
+		if (str = "a")
+			{
+			return a;
+			}
+		else
+			{
+			if (str = "b")
+				{
+				return b;
+				}
+			else
+				{
+				return c;
+				}
+			}
+		}
+	
+	return dispatch;
+	}
+$n = zoo(1,2,3);
+
+print(n("a"));
+print(n("b"));
+print(n("r"));
+
+

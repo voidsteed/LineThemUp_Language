@@ -1,0 +1,10 @@
+#constant time array
+#arrayIndex(array,index)
+#arraySet(array,index,value)
+
+$a = array(8000000);
+arraySet(a,7999999,1);
+print(arrayIndex(a,7999999));
+$b = 3;
+arraySet(a,0,b);
+print(arrayIndex(a,0));

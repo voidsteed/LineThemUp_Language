@@ -1,0 +1,17 @@
+def zoo(a,b,c,d,e)
+	{
+	if (a = b)
+		{
+		$c = 10;
+		} 
+	else 
+		{
+		if (d > e)
+			{
+			$c = d * e / 2 % d;
+			}
+		}
+	return c;
+	}
+
+print(zoo(3,2,4,6,1));
